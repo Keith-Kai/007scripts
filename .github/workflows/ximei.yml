@@ -6,7 +6,7 @@ name: 西梅
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1,9 * * *'
+    - cron: '15 1,9,11,13,15 * * *'
   # watch:
   #       types: started
   # repository_dispatch:
